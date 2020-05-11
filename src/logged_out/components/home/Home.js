@@ -12,9 +12,7 @@ function Home(props) {
   return (
     <Fragment>
       <HeadSection />
-      <HeadSection />
       <FeatureSection />
-      <PricingSection />
       <PricingSection />
     </Fragment>
   );
