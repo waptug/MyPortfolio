@@ -132,7 +132,15 @@ function HeadSection(props) {
                             variant={isWidthUp("lg", width) ? "h6" : "body1"}
                             color="textSecondary"
                           >
-                            This is my portfolio of web projects. You may download it from my git hub here.
+                           <p>Hi, My name is
+Michael Scott McGinn</p>
+<p>I am the CEO of <a href="https://GeekZoneHosting.Com" target="_blank">GeekZoneHosting.Com</a>, LLC</p>
+<p>
+I provide domain name registration, web hosting and
+site development services.</p>
+<p>
+I am a geek with a passion for responsive user experience
+and Database Design</p>
                           </Typography>
                         </Box>
                         <Button
@@ -143,19 +151,10 @@ function HeadSection(props) {
                           classes={{ label: classes.extraLargeButtonLabel }}
                           href="https://github.com/waptug"
                         >
-                          Download from WapTug on GitHub
+                          See my GitHub
                         </Button>
                         
-                        <Button
-                          variant="contained"
-                          color="secondary"
-                          fullWidth
-                          className={classes.LargeButton}
-                          classes={{ label: classes.LargeButtonLabel }}
-                          href="https://github.com/dunky11/react-saas-template"
-                        >
-                          Download SaaS Template from GitHub
-                        </Button>
+                        
                       </div>
                     </Box>
                   </Grid>
