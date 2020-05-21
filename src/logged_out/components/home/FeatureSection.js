@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Grid, Typography, isWidthUp, withWidth } from "@material-ui/core";
+
 import CodeIcon from "@material-ui/icons/Code";
 import BuildIcon from "@material-ui/icons/Build";
 import ComputerIcon from "@material-ui/icons/Computer";
@@ -10,10 +11,14 @@ import CalendarTodayIcon from "@material-ui/icons/CalendarToday";
 import CloudIcon from "@material-ui/icons/Cloud";
 import MeassageIcon from "@material-ui/icons/Message";
 import CancelIcon from "@material-ui/icons/Cancel";
+import BubbleChart from "@material-ui/icons/BubbleChart";
+import LocalMovies from "@material-ui/icons/LocalMovies";
+
+
 import calculateSpacing from "./calculateSpacing";
 import FeatureCard from "./FeatureCard";
 
-const iconSize = 30;
+const iconSize = 300;
 
 const features = [
   {
@@ -21,7 +26,7 @@ const features = [
     headline: "Current Project",
     text:
       "I am currently a Technical Lead for Infosys, Ltd. where I lead technical projects to impliment new services for the clients of Infosys.",
-    icon: <BuildIcon style={{ fontSize: iconSize }} />,
+    icon: <LocalMovies style={{ fontSize: iconSize }} />,
     mdDelay: "0",
     smDelay: "0"
   },

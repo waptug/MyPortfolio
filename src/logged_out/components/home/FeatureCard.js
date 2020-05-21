@@ -54,6 +54,9 @@ function FeatureCard(props) {
       <Typography variant="h5" paragraph>
         {headline}
       </Typography>
+      <Typography variant="h6" paragraph>
+        {headline}
+      </Typography>
       <Typography variant="body1" color="textSecondary">
         {text}
       </Typography>

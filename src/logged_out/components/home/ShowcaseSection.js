@@ -13,6 +13,9 @@ import {
   isWidthUp
 } from "@material-ui/core";
 import headerImage from "../../dummy_data/images/headerImage.jpg";
+import headerImage1 from "../../dummy_data/images/headerImage1.jpg";
+
+import headerImage2 from "../../dummy_data/images/blogPost1.jpg";
 import WaveBorder from "../../../shared/components/WaveBorder";
 
 const styles = theme => ({
@@ -123,7 +126,7 @@ function HeadSection(props) {
                         <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
                         >
-                          Showcase <br/>GeekZoneHosting.Com
+                          Showcase GeekZoneHosting.Com
                         </Typography>
                       </Box>
                       <div>
@@ -139,9 +142,9 @@ I provide domain name registration, web hosting and
 site development services.</p>
 <p>
 Simple shared hosting to managed dedicated servers.</p>
-<img src="//image.thum.io/get/width/100/crop/600/http://geekzonehosting.com" alt="thum.io screenshot of GeekZoneHosting.Com"/>
+<a href="https://geekzonehosting.com" target="_blank" rel=""><img width="100%" src="//image.thum.io/get/width/300/http://geekzonehosting.com" alt="thum.io screenshot of GeekZoneHosting.Com"/></a>
 <p>Training Video Production</p>
-<iframe title="video1" width="560" height="315" src="https://www.youtube.com/embed/zwdWxfmjSRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe title="video1" width="100%" height="315" src="https://www.youtube.com/embed/zwdWxfmjSRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                           </Typography>
                         </Box>
                         <Button
@@ -160,9 +163,25 @@ Simple shared hosting to managed dedicated servers.</p>
                     </Box>
                   </Grid>
                   <Hidden smDown>
-                    <Grid item md={6}>
+                    <Grid item md={2}>
                       <img
                         src={headerImage}
+                        className={classes.image}
+                        alt="header example"
+                      />
+                      
+                      </Grid>
+                      <Grid item md={2}>
+                      <img
+                        src={headerImage1}
+                        className={classes.image}
+                        alt="header example"
+                      />
+                    </Grid>
+                    
+                    <Grid item md={2}>
+                      <img
+                        src={headerImage2}
                         className={classes.image}
                         alt="header example"
                       />
