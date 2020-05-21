@@ -134,12 +134,12 @@ function HeadSection(props) {
                           >
                            <p>Hi, My name is
 Michael Scott McGinn</p>
-<p>I am the CEO of <a href="https://GeekZoneHosting.Com" target="_blank">GeekZoneHosting.Com</a>, LLC</p>
+<p>I am the CEO of <a href="https://GeekZoneHosting.Com" target="_blank" rel="noopener noreferrer">GeekZoneHosting.Com</a>, LLC</p>
 <p>
 I provide domain name registration, web hosting and
 site development services.</p>
 <p>
-I am a geek with a passion for responsive user experience
+I am a full stack developer with a passion for responsive user experience
 and Database Design</p>
                           </Typography>
                         </Box>

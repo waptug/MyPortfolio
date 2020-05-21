@@ -133,13 +133,15 @@ function HeadSection(props) {
                             color="textSecondary"
                           >
                            <p></p>
-<p>As CEO of <a href="https://GeekZoneHosting.Com" target="_blank">GeekZoneHosting.Com</a>, LLC</p>
+<p>As CEO of <a href="https://GeekZoneHosting.Com" target="_blank" rel="noopener noreferrer">GeekZoneHosting.Com</a>, LLC</p>
 <p>
 I provide domain name registration, web hosting and
 site development services.</p>
 <p>
-I am a geek with a passion for responsive user experience
-and Database Design</p>
+Simple shared hosting to managed dedicated servers.</p>
+<img src="//image.thum.io/get/width/100/crop/600/http://geekzonehosting.com" alt="thum.io screenshot of GeekZoneHosting.Com"/>
+<p>Training Video Production</p>
+<iframe title="video1" width="560" height="315" src="https://www.youtube.com/embed/zwdWxfmjSRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                           </Typography>
                         </Box>
                         <Button
