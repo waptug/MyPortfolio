@@ -142,7 +142,7 @@ I provide domain name registration, web hosting and
 site development services.</p>
 <p>
 Simple shared hosting to managed dedicated servers.</p>
-<a href="https://geekzonehosting.com" target="_blank" rel=""><img width="100%" src="//image.thum.io/get/width/300/http://geekzonehosting.com" alt="thum.io screenshot of GeekZoneHosting.Com"/></a>
+<a href="https://geekzonehosting.com" target="_blank" rel="noopener noreferrer"><img width="100%" src="//image.thum.io/get/width/300/http://geekzonehosting.com" alt="thum.io screenshot of GeekZoneHosting.Com"/></a>
 <p>Training Video Production</p>
 <iframe title="video1" width="100%" height="315" src="https://www.youtube.com/embed/zwdWxfmjSRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                           </Typography>

@@ -136,10 +136,10 @@ function HeadSection(props) {
 Michael Scott McGinn</p>
 <p>I am the CEO of <a href="https://GeekZoneHosting.Com" target="_blank" rel="noopener noreferrer">GeekZoneHosting.Com</a>, LLC</p>
 <p>
-I provide domain name registration, web hosting and
-site development services.</p>
+GeekZoneHosting.Com provides domain name registration, web hosting,
+site development services and training.</p>
 <p>
-I am a full stack developer with a passion for responsive user experience
+I am a full stack developer with a passion for responsive UX/UI
 and Database Design</p>
                           </Typography>
                         </Box>

@@ -50,7 +50,7 @@ function PricingSection(props) {
   return (
     <div className="lg-p-top" style={{ backgroundColor: "#FFFFFF" }}>
       <Typography variant="h3" align="center" className="lg-mg-bottom">
-        Pricing
+        Web Site Development, Design and Content Management Pricing
       </Typography>
       <div className={classNames("container-fluid", classes.containerFix)}>
         <Grid
@@ -67,14 +67,15 @@ function PricingSection(props) {
             data-aos="zoom-in-up"
           >
             <PriceCard
-              title="Starter"
+              
+              title="Hourly"
               pricing={
                 <span>
-                  $14.99
-                  <Typography display="inline"> / month</Typography>
+                  $65.00
+                  <Typography display="inline"> / hour</Typography>
                 </span>
               }
-              features={["Feature 1", "Feature 2", "Feature 3","Featuer 4"]}
+              features={["Coding", "Feature 2", "Feature 3","Featuer 4"]}
             />
           </Grid>
           <Grid
@@ -88,11 +89,11 @@ function PricingSection(props) {
           >
             <PriceCard
               highlighted
-              title="Premium"
+              title="Daily"
               pricing={
                 <span>
-                  $29.99
-                  <Typography display="inline"> / month</Typography>
+                  $495.00
+                  <Typography display="inline"> / day</Typography>
                 </span>
               }
               features={["Feature 1", "Feature 2", "Feature 3"]}
@@ -108,11 +109,11 @@ function PricingSection(props) {
             data-aos-delay={isWidthUp("md", width) ? "400" : "0"}
           >
             <PriceCard
-              title="Business"
+              title="Weekly"
               pricing={
                 <span>
-                  $49.99
-                  <Typography display="inline"> / month</Typography>
+                  $2,000.00
+                  <Typography display="inline"> / weekly</Typography>
                 </span>
               }
               features={["Feature 1", "Feature 2", "Feature 3"]}
@@ -128,11 +129,11 @@ function PricingSection(props) {
             data-aos-delay={isWidthUp("md", width) ? "600" : "200"}
           >
             <PriceCard
-              title="Tycoon"
+              title="Yealy"
               pricing={
                 <span>
-                  $99.99
-                  <Typography display="inline"> / month</Typography>
+                  $150,000.00
+                  <Typography display="inline"> / year</Typography>
                 </span>
               }
               features={["Feature 1", "Feature 2", "Feature 3"]}

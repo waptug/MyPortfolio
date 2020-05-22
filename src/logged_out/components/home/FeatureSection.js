@@ -18,12 +18,16 @@ import LocalMovies from "@material-ui/icons/LocalMovies";
 import calculateSpacing from "./calculateSpacing";
 import FeatureCard from "./FeatureCard";
 
-const iconSize = 300;
+
+const iconSize = 30;
 
 const features = [
   {
     color: "#00C853",
-    headline: "Current Project",
+    headline: "Current Job",
+    subheadline: "InfoSys, Ltd. Technical Lead",
+    datespan: "March 25,2019-Present",
+
     text:
       "I am currently a Technical Lead for Infosys, Ltd. where I lead technical projects to impliment new services for the clients of Infosys.",
     icon: <LocalMovies style={{ fontSize: iconSize }} />,
@@ -33,8 +37,10 @@ const features = [
   {
     color: "#6200EA",
     headline: "Side Projects",
+    subheadline: "Washington Association of RaspberryPiJam Sessions",
+    datespan: "January 1, 2010-Present",
     text:
-      "I am working on building a web site to facilitate the orgnanisation of RaspberryPi Jam Sessions at WarpJams.Com",
+      "I am working on building a web site to facilitate the orgnanisation of RaspberryPi Jam Sessions at <a href='https://warpjams.com'>WarpJams.Com</a>",
     icon: <CalendarTodayIcon style={{ fontSize: iconSize }} />,
     mdDelay: "200",
     smDelay: "200"
@@ -50,7 +56,7 @@ const features = [
   },
   {
     color: "#d50000",
-    headline: "Feature 4",
+    headline: "Job2",
     text:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
     icon: <ComputerIcon style={{ fontSize: iconSize }} />,
@@ -59,7 +65,7 @@ const features = [
   },
   {
     color: "#DD2C00",
-    headline: "Feature 5",
+    headline: "Job3",
     text:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
     icon: <BarChartIcon style={{ fontSize: iconSize }} />,
@@ -68,7 +74,7 @@ const features = [
   },
   {
     color: "#64DD17",
-    headline: "Feature 6",
+    headline: "Job4",
     text:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
     icon: <HeadsetMicIcon style={{ fontSize: iconSize }} />,
@@ -77,7 +83,7 @@ const features = [
   },
   {
     color: "#304FFE",
-    headline: "Feature 7",
+    headline: "Job6",
     text:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
     icon: <CloudIcon style={{ fontSize: iconSize }} />,
@@ -86,7 +92,7 @@ const features = [
   },
   {
     color: "#C51162",
-    headline: "Feature 8",
+    headline: "JOb7",
     text:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
     icon: <CodeIcon style={{ fontSize: iconSize }} />,
@@ -95,7 +101,34 @@ const features = [
   },
   {
     color: "#00B8D4",
-    headline: "Feature 9",
+    headline: "Job8",
+    text:
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+    icon: <CancelIcon style={{ fontSize: iconSize }} />,
+    mdDelay: "400",
+    smDelay: "0"
+  },
+  {
+    color: "#00B8D4",
+    headline: "Job9",
+    text:
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+    icon: <BuildIcon style={{ fontSize: iconSize }} />,
+    mdDelay: "400",
+    smDelay: "0"
+  },
+  {
+    color: "#00B8D4",
+    headline: "Job10",
+    text:
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+    icon: <BubbleChart style={{ fontSize: iconSize }} />,
+    mdDelay: "400",
+    smDelay: "0"
+  },
+  {
+    color: "#00B8D4",
+    headline: "Job11",
     text:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
     icon: <CancelIcon style={{ fontSize: iconSize }} />,
@@ -109,8 +142,8 @@ function FeatureSection(props) {
   return (
     <div style={{ backgroundColor: "#FFFFFF" }}>
       <div className="container-fluid lg-p-top">
-        <Typography variant="h3" align="center" className="lg-mg-bottom">
-          Projects
+        <Typography variant="h2" align="center" className="lg-mg-bottom">
+          Job History
         </Typography>
         <div className="container-fluid">
           <Grid container spacing={calculateSpacing(width)}>
@@ -129,6 +162,8 @@ function FeatureSection(props) {
                   Icon={element.icon}
                   color={element.color}
                   headline={element.headline}
+                  subheadline={element.subheadline}
+                  datespan={element.datespan}
                   text={element.text}
                 />
               </Grid>
