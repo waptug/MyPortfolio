@@ -1,10 +1,7 @@
 # My React Portfolio
-My portfolio using React + Material-UI.
+My portfolio built using React + Material-UI.
 
 [**Check out the site**](https://michaelscottmcginn.com)
-
-
-
 
 ## Build With
 
@@ -20,6 +17,9 @@ My portfolio using React + Material-UI.
 * [React-Stripe-js](https://github.com/stripe/react-stripe-js) - Stripes payment elements
 
 ## Things im currently working on
+Adding more sections and cards.
+Adding mongoDB connections to power persistant data store
+Adding form processing for contacts and blog editing
 
 ## Contribute
 Show your support by ⭐ the project.
