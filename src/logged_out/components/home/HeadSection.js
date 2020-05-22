@@ -149,9 +149,9 @@ and Database Design</p>
                           fullWidth
                           className={classes.extraLargeButton}
                           classes={{ label: classes.extraLargeButtonLabel }}
-                          href="https://github.com/waptug"
+                          href="https://waptug.com"
                         >
-                          See my GitHub
+                          Join my Blog Farm
                         </Button>
                         
                         
