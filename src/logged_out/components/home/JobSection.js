@@ -19,42 +19,37 @@ import calculateSpacing from "./calculateSpacing";
 import FeatureCard from "./FeatureCard";
 
 
-const iconSize = 30;//Controls the size of the icon image in px.
-
-/* Feature Card Fields: headline, subheadline,datespan,text
-* Array assigned to features 
-* @ToDo  Replace this will a db filled array from MongoDB
-* @toDo  Create a master Card class that can be passed a field set based on a card type
-*/
+const iconSize = 30;
 
 const features = [
-  { 
+  {
     color: "#00C853",
-    headline: "Feature 1",
-    subheadline: "",
-    datespan: "",
+    headline: "Current Job",
+    subheadline: "InfoSys, Ltd. Technical Lead",
+    datespan: "March 25,2019-Present",
+
     text:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+      "I am currently a Technical Lead for Infosys, Ltd. where I lead technical projects to impliment new services for the clients of Infosys.",
     icon: <LocalMovies style={{ fontSize: iconSize }} />,
     mdDelay: "0",
     smDelay: "0"
   },
   {
     color: "#6200EA",
-    headline: "Feature 2",
-    subheadline: "",
-    datespan: "",
+    headline: "Side Projects",
+    subheadline: "Washington Association of RaspberryPiJam Sessions",
+    datespan: "January 1, 2010-Present",
     text:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+      "I am working on building a web site to facilitate the orgnanisation of RaspberryPi Jam Sessions at <a href='https://warpjams.com'>WarpJams.Com</a>",
     icon: <CalendarTodayIcon style={{ fontSize: iconSize }} />,
     mdDelay: "200",
     smDelay: "200"
   },
   {
     color: "#0091EA",
-    headline: "Feature 3",
+    headline: "Community Projects",
     text:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+      "I produce RaspberryPi Experience Labs for School STEM Expo Trade Shows. I setup labs with RaspberryPi Computer work stations and show people how they work and let them experiment with them.",
     icon: <MeassageIcon style={{ fontSize: iconSize }} />,
     mdDelay: "400",
     smDelay: "0"
@@ -148,7 +143,7 @@ function FeatureSection(props) {
     <div style={{ backgroundColor: "#FFFFFF" }}>
       <div className="container-fluid lg-p-top">
         <Typography variant="h2" align="center" className="lg-mg-bottom">
-          Featuers
+          Job History
         </Typography>
         <div className="container-fluid">
           <Grid container spacing={calculateSpacing(width)}>
