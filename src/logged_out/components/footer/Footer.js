@@ -16,6 +16,74 @@ import MailIcon from "@material-ui/icons/Mail";
 import WaveBorder from "../../../shared/components/WaveBorder";
 import transitions from "@material-ui/core/styles/transitions";
 import ColoredButton from "../../../shared/components/ColoredButton";
+//import UserForm from "./Footer";
+//Added new axios to process forms.
+import axios from 'axios';
+import { Component } from 'react'
+
+class UserForm extends Component {
+  constructor() {
+    super();
+    this.state = {
+      fname: '',
+      lname: '',
+      email: '',
+    };
+  }
+  onChange = (e) => {
+    /*
+      Because we named the inputs to match their
+      corresponding values in state, it's
+      super easy to update the state 
+    */
+    this.setState({ [e.target.name]: e.target.value });
+  }
+
+  onSubmit = (e) => {
+    e.preventDefault();
+    // get our form data out of state
+    const { fname, lname, email } = this.state;
+
+    axios.post('/php/contact.php', { fname, lname, email })
+      .then((result) => {
+        //access the results here....
+        console.log(result);
+      });
+  }
+
+  render() {
+    const { fname, lname, email } = this.state;
+    return (
+      <form onSubmit={this.onSubmit}>
+        <p>Subscribe To My Newsletter</p>
+        <p>First Name</p>
+        <input
+          type="text"
+          name="fname"
+          value={fname}
+          onChange={this.onChange}
+        />
+        <p>Last Name</p>
+        <input
+          type="text"
+          name="lname"
+          value={lname}
+          onChange={this.onChange}
+        />
+        <p>E-Mail</p>
+        <input
+          type="text"
+          name="email"
+          value={email}
+          onChange={this.onChange}
+        />
+        <br/>
+        <button type="submit">Join My E-Mail List</button>
+      </form>
+    );
+  }
+}
+
 
 const styles = theme => ({
   footerInner: {
@@ -153,6 +221,8 @@ const socialIcons = [
   }
 ];
 
+
+
 function Footer(props) {
   const { classes, theme, width } = props;
   return (
@@ -165,9 +235,11 @@ function Footer(props) {
       <div className={classes.footerInner}>
         <Grid container spacing={isWidthUp("md", width) ? 10 : 5}>
           <Grid item xs={12} md={6} lg={4}>
+     <UserForm>
            <form name="test" action="https://michaelscottmcginn.com/php/contact.php" method="POST">
               <Box display="flex" flexDirection="column">
                 <Box mb={1}>
+                  
                   <TextField
                     variant="outlined"
                     multiline
@@ -188,8 +260,10 @@ function Footer(props) {
                 >
                   Send me a Message
                 </ColoredButton>
+                
               </Box>
             </form>
+            </UserForm>
           </Grid>
           <Hidden mdDown>
             <Grid item xs={12} md={6} lg={4}>
