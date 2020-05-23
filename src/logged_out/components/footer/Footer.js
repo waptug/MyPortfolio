@@ -165,13 +165,13 @@ function Footer(props) {
       <div className={classes.footerInner}>
         <Grid container spacing={isWidthUp("md", width) ? 10 : 5}>
           <Grid item xs={12} md={6} lg={4}>
-            <form name="test" action="mailto:contact@michaelscottmcginn.com?subject='contact'">
+           <form name="test" action="https://michaelscottmcginn.com/php/contact.php" method="POST">
               <Box display="flex" flexDirection="column">
                 <Box mb={1}>
                   <TextField
                     variant="outlined"
                     multiline
-                    placeholder="Get in touch with us"
+                    placeholder="Get in touch with me"
                     inputProps={{ "aria-label": "Get in Touch" }}
                     InputProps={{
                       className: classes.whiteBg
@@ -223,10 +223,10 @@ function Footer(props) {
           </Hidden>
           <Grid item xs={12} md={6} lg={4}>
             <Typography variant="h6" paragraph className="text-white">
-              About Michael
+              Network with Michael
             </Typography>
             <Typography style={{ color: "#8f9296" }} paragraph>
-              Michael is an accomplished web application developer having over 30 years of experience.
+              Connect with me on my social networks
             </Typography>
             <Box display="flex">
               {socialIcons.map((socialIcon, index) => (
