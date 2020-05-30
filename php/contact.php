@@ -6,27 +6,16 @@ $task=$data['text'];
 print 'First Name: '.$data['fname'];
 print 'Last Name:'.$data['lname'];
 print 'email:'.$data['email'];
+print 'message:'.$data['message'];
 
+ini_set('display_errors',1);
+error_reporting( E_ALL );
+$from = "michael.scott.mcginn@gmail.com";
+$to="michael.scott.mcginn@gmail.com";
+$subject = "New contact from profile form.";
+$message = $data['fname'].",".$data['lname'].",".$data['email'].",".$data['message'];
+$headers ="From:".$from;
+mail($to,$subject,$message,$headers);
+print "Mail Sent";
 
-print $task;
-print $data;
-print_r($task);
-print_r($data);
-print var_dump($task);
-print var_dump($data);
-
-$jsonInArray=$_POST;
-echo '<pre>'; print_r($_POST); echo '</pre>';
-echo '<pre>'; var_dump($_POST);echo '</pre>';
-echo ('The Users First Name is'.$_POST[0]);
-echo '<pre>'; print_r($jsonInArray); echo '</pre>';
-echo '<pre>'; print var_dump($jsonInArray);echo '</pre>';
-echo ('The Users First Name is'.$jsonInArray);
-$encodedJSON=json_encode($jsonInArray,JSON_PRETTY_PRINT);
-
-
-print "<PRE>";
-print_r($encodedJSON);
-print($encodedJSON);
-print "</pre>";
 ?>
