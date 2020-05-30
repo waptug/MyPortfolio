@@ -92,7 +92,7 @@ const features = [
   },
   {
     color: "#C51162",
-    headline: "JOb7",
+    headline: "Job7",
     text:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
     icon: <CodeIcon style={{ fontSize: iconSize }} />,

@@ -151,7 +151,7 @@ and Database Design</p>
                           classes={{ label: classes.extraLargeButtonLabel }}
                           href="https://waptug.com"
                         >
-                          Join my Blog Farm
+                          Learn how to create a profile page like this.
                         </Button>
                         
                         

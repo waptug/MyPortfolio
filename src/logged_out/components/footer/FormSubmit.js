@@ -8,6 +8,7 @@ import React, { Component } from 'react';
           fname: '',
           lname: '',
           email: '',
+          message: '',
         };
       }
 
@@ -23,16 +24,16 @@ import React, { Component } from 'react';
       onSubmit = (e) => {
         e.preventDefault();
         // get our form data out of state
-        const { fname, lname, email } = this.state;
+        const { fname, lname, email, message } = this.state;
 
-        axios.post('/', { fname, lname, email })
+        axios.post('/', { fname, lname, email, message })
           .then((result) => {
             //access the results here....
           });
       }
 
       render() {
-        const { fname, lname, email } = this.state;
+        const { fname, lname, email, message } = this.state;
         return (
           <form onSubmit={this.onSubmit}>
             <input
@@ -53,6 +54,12 @@ import React, { Component } from 'react';
               value={email}
               onChange={this.onChange}
             />
+            <input
+            type="text"
+            name="message"
+            value={message}
+            onChange={this.onChange}
+          />
             <button type="submit">Submit</button>
           </form>
         );

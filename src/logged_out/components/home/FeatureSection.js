@@ -23,7 +23,7 @@ const iconSize = 30;//Controls the size of the icon image in px.
 
 /* Feature Card Fields: headline, subheadline,datespan,text
 * Array assigned to features 
-* @ToDo  Replace this will a db filled array from MongoDB
+* @ToDo  Replace this with a db filled array from MongoDB
 * @toDo  Create a master Card class that can be passed a field set based on a card type
 */
 

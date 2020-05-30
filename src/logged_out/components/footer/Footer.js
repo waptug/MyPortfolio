@@ -28,6 +28,7 @@ class UserForm extends Component {
       fname: '',
       lname: '',
       email: '',
+      message: '',
     };
   }
   onChange = (e) => {
@@ -42,9 +43,9 @@ class UserForm extends Component {
   onSubmit = (e) => {
     e.preventDefault();
     // get our form data out of state
-    const { fname, lname, email } = this.state;
+    const { fname, lname, email, message } = this.state;
 
-    axios.post('/php/contact.php', { fname, lname, email })
+    axios.post('/php/contact.php', { fname, lname, email, message })
       .then((result) => {
         //access the results here....
         console.log(result);
@@ -52,7 +53,7 @@ class UserForm extends Component {
   }
 
   render() {
-    const { fname, lname, email } = this.state;
+    const { fname, lname, email, message } = this.state;
     return (
       <form onSubmit={this.onSubmit}>
         <p>Subscribe To My Newsletter</p>
@@ -77,8 +78,15 @@ class UserForm extends Component {
           value={email}
           onChange={this.onChange}
         />
+        <p>Message</p>
+        <input
+          type="text"
+          name="message"
+          value={message}
+          onChange={this.onChange}
+        />
         <br/>
-        <button type="submit">Join My E-Mail List</button>
+        <button type="submit">Join My E-Mail Newsletter List</button>
       </form>
     );
   }
