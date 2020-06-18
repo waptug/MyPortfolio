@@ -134,13 +134,12 @@ function HeadSection(props) {
                           >
                            <p>Hi, My name is
 Michael Scott McGinn</p>
-<p>I am the CEO of <a href="https://GeekZoneHosting.Com" target="_blank" rel="noopener noreferrer">GeekZoneHosting.Com</a>, LLC</p>
+<p>I am a Full Stack Web Site developer for <a href="https://GeekZoneHosting.Com" target="_blank" rel="noopener noreferrer">GeekZoneHosting.Com</a>, LLC</p>
 <p>
 GeekZoneHosting.Com provides domain name registration, web hosting,
 site development services and training.</p>
 <p>
-I am a full stack developer with a passion for responsive UX/UI
-and Database Design</p>
+I am a full stack web site developer with 30 years of experience and a passion for responsive UX/UI web site design, Database Design and training.</p>
                           </Typography>
                         </Box>
                         <Button
@@ -151,7 +150,7 @@ and Database Design</p>
                           classes={{ label: classes.extraLargeButtonLabel }}
                           href="https://waptug.com"
                         >
-                          Learn how to create a profile page like this.
+                          Learn how to create a profile site like this.
                         </Button>
                         
                         

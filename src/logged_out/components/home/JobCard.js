@@ -51,13 +51,13 @@ function JobCard(props) {
       >
         {Icon}
       </div>
-      <Typography variant="h3" paragraph>
+      <Typography variant="h4" paragraph>
         {headline}
       </Typography>
-      <Typography variant="h4" paragraph>
+      <Typography variant="h5" paragraph>
         {subheadline}
       </Typography>
-      <Typography variant="h5" paragraph>
+      <Typography variant="h6" paragraph>
         {datespan}
       </Typography>
       <Typography variant="body1" color="textSecondary">

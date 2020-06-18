@@ -136,12 +136,13 @@ function HeadSection(props) {
                             color="textSecondary"
                           >
                            <p></p>
-<p>As CEO of <a href="https://GeekZoneHosting.Com" target="_blank" rel="noopener noreferrer">GeekZoneHosting.Com</a>, LLC</p>
+<p><a href="https://GeekZoneHosting.Com" target="_blank" rel="noopener noreferrer">GeekZoneHosting.Com</a>, LLC</p>
 <p>
-I provide domain name registration, web hosting and
-site development services.</p>
+can provide domain name registration, web hosting, SSL certificates, SMTP and POP3 Email services and
+site development services. GeekZoneHosting.Com also provided a number of supporting services via affiliate
+relationships with multiple vendors via its website.</p>
 <p>
-Simple shared hosting to managed dedicated servers.</p>
+Simple shared hosting to multiple racks of managed dedicated servers.</p>
 <a href="https://geekzonehosting.com" target="_blank" rel="noopener noreferrer"><img width="100%" src="//image.thum.io/get/width/300/http://geekzonehosting.com" alt="thum.io screenshot of GeekZoneHosting.Com"/></a>
 <p>Training Video Production</p>
 <iframe title="video1" width="100%" height="315" src="https://www.youtube.com/embed/zwdWxfmjSRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

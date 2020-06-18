@@ -30,112 +30,122 @@ const iconSize = 30;//Controls the size of the icon image in px.
 const features = [
   { 
     color: "#00C853",
-    headline: "Feature 1",
-    subheadline: "",
+    headline: "WordPress",
+    subheadline: "WordPress CMS Development",
     datespan: "",
     text:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+      "Site creation using the leading open source content management system. Site design and development, hosting and domain name registrations service.",
     icon: <LocalMovies style={{ fontSize: iconSize }} />,
     mdDelay: "0",
     smDelay: "0"
   },
   {
-    color: "#6200EA",
-    headline: "Feature 2",
-    subheadline: "",
-    datespan: "",
-    text:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
-    icon: <CalendarTodayIcon style={{ fontSize: iconSize }} />,
-    mdDelay: "200",
-    smDelay: "200"
-  },
-  {
     color: "#0091EA",
-    headline: "Feature 3",
+    headline: "Joomla",
+    subheadline: "Joomla CMS Development",
     text:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+      "Site creation using the 2nd. leading open source content management system. Site design and development, hosting and domain name registrations service.",
     icon: <MeassageIcon style={{ fontSize: iconSize }} />,
     mdDelay: "400",
     smDelay: "0"
   },
   {
-    color: "#d50000",
-    headline: "Job2",
+    color: "#6200EA",
+    headline: "Drupal",
+    subheadline: "Drupal CMS Development",
+    datespan: "",
     text:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+      "Site creation using the 3rd leading open source content management system. Site design and development, hosting and domain name registrations service.",
+    icon: <CalendarTodayIcon style={{ fontSize: iconSize }} />,
+    mdDelay: "200",
+    smDelay: "200"
+  },
+  {
+    color: "#d50000",
+    headline: "Hugo",
+    subheadline: "Hugo Static Site CMS Development",
+    text:
+      "Site creation using the leading open source static website framework content management system. Site design and development, hosting and domain name registrations service.",
     icon: <ComputerIcon style={{ fontSize: iconSize }} />,
     mdDelay: "0",
     smDelay: "200"
   },
   {
     color: "#DD2C00",
-    headline: "Job3",
+    headline: "ReactJS",
+    subheadline: "ReactJS Portfolio SAAS Development",
     text:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+      "Portfolio creation using the leading open source javascript library. Site design and development, hosting and domain name registrations service.",
     icon: <BarChartIcon style={{ fontSize: iconSize }} />,
     mdDelay: "200",
     smDelay: "0"
   },
   {
     color: "#64DD17",
-    headline: "Job4",
+    headline: "Lead Generation",
+    subheadline: "Lead Generation Landing Page Development",
     text:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+      "Lead gereration and landing page system development using leading open source tools. Integration with leading email mailing list management systems.",
     icon: <HeadsetMicIcon style={{ fontSize: iconSize }} />,
     mdDelay: "400",
     smDelay: "200"
   },
   {
     color: "#304FFE",
-    headline: "Job6",
+    headline: "Learning Management Systems",
+    subheadline: "Learning Management System Development",
     text:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+      "Creation of learning management systems using text, audio and video based training.",
     icon: <CloudIcon style={{ fontSize: iconSize }} />,
     mdDelay: "0",
     smDelay: "0"
   },
   {
     color: "#C51162",
-    headline: "JOb7",
+    headline: "Data Analytics",
+    subheadline: "Site Traffic Analytics",
     text:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+      "Set up and configuration of a branded web site traffic analytics tracking system using the self-hosted Matomo Server",
     icon: <CodeIcon style={{ fontSize: iconSize }} />,
     mdDelay: "200",
     smDelay: "200"
   },
   {
     color: "#00B8D4",
-    headline: "Job8",
+    headline: "RDBMS Management",
+    subheadline: "MySQL Relational Database Management",
     text:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+      "Management services for your MySQL, MS SQL, or Postgres database system.",
     icon: <CancelIcon style={{ fontSize: iconSize }} />,
     mdDelay: "400",
     smDelay: "0"
   },
   {
     color: "#00B8D4",
-    headline: "Job9",
+    headline: "System Administration",
+    subheadline: "File system management via cmd, bash and powershell",
     text:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+      "Creation of system administration scripting services for process automation using MS Dos Batch, Powershell or BASH scripts.",
     icon: <BuildIcon style={{ fontSize: iconSize }} />,
     mdDelay: "400",
     smDelay: "0"
   },
   {
     color: "#00B8D4",
-    headline: "Job10",
+    headline: "Technical Writing",
+    subheadline: "Technical content writing.",
     text:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+      "System documentation and technical manual creation for your process or application.",
     icon: <BubbleChart style={{ fontSize: iconSize }} />,
     mdDelay: "400",
     smDelay: "0"
   },
   {
     color: "#00B8D4",
-    headline: "Job11",
+    headline: "Social Media Branding",
+    subheadline: "Social Media Brand Management",
     text:
-      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et.",
+      "Ad development and placement on FaceBook, YouTube and LinkedIn",
     icon: <CancelIcon style={{ fontSize: iconSize }} />,
     mdDelay: "400",
     smDelay: "0"

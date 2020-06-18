@@ -154,11 +154,11 @@ const styles = theme => ({
 const infos = [
   {
     icon: <PhoneIcon />,
-    description: "+1 206 9090361"
+    description: "+1 (206) 909-0361"
   },
   {
     icon: <MailIcon />,
-    description: "worldrecords@warpjams.com"
+    description: "michael.mcginn @ geekzonehosting.com"
   }
 ];
 
@@ -193,7 +193,7 @@ const socialIcons = [
       </svg>
     ),
     label: "Facebook",
-    href: "https://www.facebook.com/groups/WARPJams"
+    href: "https://www.facebook.com/GeekZoneHostingCom"
   },
   {
     icon: (

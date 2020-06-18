@@ -71,11 +71,11 @@ function PricingSection(props) {
               title="Hourly"
               pricing={
                 <span>
-                  $65.00
+                  $79.00
                   <Typography display="inline"> / hour</Typography>
                 </span>
               }
-              features={["Coding", "Feature 2", "Feature 3","Featuer 4"]}
+              features={[]}
             />
           </Grid>
           <Grid
@@ -92,11 +92,11 @@ function PricingSection(props) {
               title="Daily"
               pricing={
                 <span>
-                  $495.00
+                  $632.00
                   <Typography display="inline"> / day</Typography>
                 </span>
               }
-              features={["Feature 1", "Feature 2", "Feature 3"]}
+              features={[]}
             />
           </Grid>
           <Grid
@@ -109,14 +109,14 @@ function PricingSection(props) {
             data-aos-delay={isWidthUp("md", width) ? "400" : "0"}
           >
             <PriceCard
-              title="Weekly"
+              title="Bi-Weekly"
               pricing={
                 <span>
-                  $2,000.00
+                  $6,250.00
                   <Typography display="inline"> / weekly</Typography>
                 </span>
               }
-              features={["Feature 1", "Feature 2", "Feature 3"]}
+              features={[]}
             />
           </Grid>
           <Grid
@@ -136,7 +136,7 @@ function PricingSection(props) {
                   <Typography display="inline"> / year</Typography>
                 </span>
               }
-              features={["Feature 1", "Feature 2", "Feature 3"]}
+              features={[]}
             />
           </Grid>
         </Grid>
