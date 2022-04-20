@@ -27,3 +27,12 @@ Show your support by ⭐ the project.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/waptug/MyPortfolio/blob/master/LICENSE) file for details.
+
+## Install this on your server
+Create a folder on your web server to hold this.
+Goto that folder
+git clone this repo
+sudo apt-get install npm
+npm install
+npm start
+You will get a running server on port 3000
