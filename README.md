@@ -1,4 +1,5 @@
 # My React Portfolio
+
 My portfolio built using React + Material-UI.
 
 [**Check out the site**](https://michaelscottmcginn.com)
@@ -17,11 +18,13 @@ My portfolio built using React + Material-UI.
 * [React-Stripe-js](https://github.com/stripe/react-stripe-js) - Stripes payment elements
 
 ## Things im currently working on
+
 Adding more sections and cards.
 Adding mongoDB connections to power persistant data store
 Adding form processing for contacts and blog editing
 
 ## Contribute
+
 Show your support by ⭐ the project.
 
 ## License
@@ -29,6 +32,7 @@ Show your support by ⭐ the project.
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/waptug/MyPortfolio/blob/master/LICENSE) file for details.
 
 ## Install this on your server
+
 Create a folder on your web server to hold this.
 Goto that folder
 git clone this repo
@@ -36,3 +40,23 @@ sudo apt-get install npm
 npm install
 npm start
 You will get a running server on port 3000
+
+Build a production version to host on your server
+
+npm run build
+
+copy content of the build folder to your root web folder
+
+or change package.json file to alter the root location.
+
+Alter the "homepage" with the root location of your portfolio.
+
+ "name": "react-saas-template",
+
+  "version": "1.0.0",
+
+  "private": true,
+
+  "homepage": "/reactportfolio",
+
+  "description": "Template for building an SaaS/admin application using React + Material-UI",

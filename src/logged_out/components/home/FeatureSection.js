@@ -7,13 +7,13 @@ import BuildIcon from "@material-ui/icons/Build";
 import ComputerIcon from "@material-ui/icons/Computer";
 import BarChartIcon from "@material-ui/icons/BarChart";
 import HeadsetMicIcon from "@material-ui/icons/HeadsetMic";
-import CalendarTodayIcon from "@material-ui/icons/CalendarToday";
+//import CalendarTodayIcon from "@material-ui/icons/CalendarToday";
 import CloudIcon from "@material-ui/icons/Cloud";
 import MeassageIcon from "@material-ui/icons/Message";
 import CancelIcon from "@material-ui/icons/Cancel";
 import BubbleChart from "@material-ui/icons/BubbleChart";
 import LocalMovies from "@material-ui/icons/LocalMovies";
-
+import LocalOfferIcon from "@material-ui/icons/LocalOffer";
 
 import calculateSpacing from "./calculateSpacing";
 import FeatureCard from "./FeatureCard";
@@ -28,7 +28,17 @@ const iconSize = 30;//Controls the size of the icon image in px.
 */
 
 const features = [
-  { 
+  {
+    color: "#6200EA",
+    headline: "Drupal",
+    subheadline: "Drupal CMS Development",
+    datespan: "",
+    text:
+      "Acquia Certified Site Builder 2023. Site creation using the leading open source enterprise content management system. Site design and development, hosting and domain name registrations service.",
+    icon: <LocalOfferIcon style={{ fontSize: iconSize }} />,
+    mdDelay: "0",
+    smDelay: ""
+  },{ 
     color: "#00C853",
     headline: "WordPress",
     subheadline: "WordPress CMS Development",
@@ -36,8 +46,8 @@ const features = [
     text:
       "Site creation using the leading open source content management system. Site design and development, hosting and domain name registrations service.",
     icon: <LocalMovies style={{ fontSize: iconSize }} />,
-    mdDelay: "0",
-    smDelay: "0"
+    mdDelay: "100",
+    smDelay: "100"
   },
   {
     color: "#0091EA",
@@ -49,16 +59,36 @@ const features = [
     mdDelay: "400",
     smDelay: "0"
   },
+  
   {
-    color: "#6200EA",
-    headline: "Drupal",
-    subheadline: "Drupal CMS Development",
-    datespan: "",
+    color: "#00B8D4",
+    headline: "A.I. Prompt Generation",
+    subheadline: "Get the most out of your A.I. Chatbots.",
     text:
-      "Site creation using the 3rd leading open source content management system. Site design and development, hosting and domain name registrations service.",
-    icon: <CalendarTodayIcon style={{ fontSize: iconSize }} />,
-    mdDelay: "200",
-    smDelay: "200"
+      "Prompt generation for your A.I. Chatbots. ",
+    icon: <MeassageIcon style={{ fontSize: iconSize }} />,
+    mdDelay: "400",
+    smDelay: "0"
+  },
+  {
+    color: "#00B855",
+    headline: "A.I. Prompt Generation Training",
+    subheadline: "Book me to speak at your event on 'Learn How to Get the most out of your A.I. Chatbots.'",
+    text:
+      "Group or individual training sessions. Live or Zoom sessions. Step by step training on how to get the most out of your A.I. Chatbots. Learn where to start finding the right A.I. Chatbot for your business.",
+    icon: <MeassageIcon style={{ fontSize: iconSize }} />,
+    mdDelay: "400",
+    smDelay: "0"
+  },
+  {
+    color: "#00F855",
+    headline: "A.I. Chat Bot Enginering",
+    subheadline: "Create your own A.I. Chatbots.",
+    text:
+      "A.I. Chatbot creation and deployment. Integration leading A.I. Chatbot platforms with your CMS to provide site specific A.I. Chatbots.",
+    icon: <MeassageIcon style={{ fontSize: iconSize }} />,
+    mdDelay: "400",
+    smDelay: "0"
   },
   {
     color: "#d50000",
