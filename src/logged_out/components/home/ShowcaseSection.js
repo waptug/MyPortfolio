@@ -12,10 +12,13 @@ import {
   withWidth,
   isWidthUp
 } from "@material-ui/core";
-import headerImage from "../../dummy_data/images/headerImage.jpg";
-import headerImage1 from "../../dummy_data/images/headerImage1.jpg";
+import headerImage from "../../dummy_data/images/Screenshot 2023-08-08 at 13-14-00 Affiliates MTBN.NET HOSTING.png";
+import headerImage1 from "../../dummy_data/images/Screenshot 2023-08-08 at 13-12-39 Web Hosting plans MTBN.NET.png";
+import headerImage2 from "../../dummy_data/images/Screenshot 2023-08-08 at 13-14-38 Hosting Articles.png";
+import headerImage3 from "../../dummy_data/images/Screenshot 2023-08-08 at 13-15-27 Hepsia vs. cPanel.png"
+import headerImage4 from "../../dummy_data/images/blogPost1.jpg"
+import headerImage5 from "../../dummy_data/images/blogPost1.jpg"
 
-import headerImage2 from "../../dummy_data/images/blogPost1.jpg";
 import WaveBorder from "../../../shared/components/WaveBorder";
 
 const styles = theme => ({
@@ -126,7 +129,7 @@ function HeadSection(props) {
                         <Typography
                           variant={isWidthUp("lg", width) ? "h3" : "h4"}
                         >
-                          Showcase GeekZoneHosting.Com
+                          Showcase: GeekZoneHosting.Com,Llc.
                         </Typography>
                       </Box>
                       <div>
@@ -135,21 +138,21 @@ function HeadSection(props) {
                             variant={isWidthUp("lg", width) ? "h6" : "body1"}
                             color="textSecondary"
                           >
-                           <p></p>
-<p><a href="https://GeekZoneHosting.Com" target="_blank" rel="noopener noreferrer">GeekZoneHosting.Com</a>, LLC</p>
-<p>
-can provide domain name registration, web hosting, SSL certificates, SMTP and POP3 Email services and
-site development services. GeekZoneHosting.Com also provids a number of supporting services via affiliate
-relationships with multiple vendors via its website network.</p>
-<p>Virtual Assistants are available for clients to assist with administrative tasks.</p>
-<p>
-Simple shared hosting to multiple racks of managed dedicated servers are available for clients at <a href="https://mtbn.net" target="_blank" rel="noopener noreferrer">mtbn.net</a></p>
-<a href="https://mtbn.net" target="_blank" rel="noopener noreferrer"><img width="100%" src="//image.thum.io/get/width/300/http://mtbn.net" alt="thum.io screenshot of MTBN.net"/></a>
-<p>Training and Video Sales Letter Video Production Services are available</p>
+                            <p></p>
+                            <p><a href="https://GeekZoneHosting.Com" target="_blank" rel="noopener noreferrer">GeekZoneHosting.Com</a>, LLC
+                            is a web hosting company that provides a number of services to clients.
+                            We can provide domain name registration, web hosting, SSL certificates, SMTP and POP3 Email services and
+                            site development services. </p><p>GeekZoneHosting.Com also provids a number of supporting services via affiliate
+                            relationships with multiple vendors via its website network.</p>
+                            <p>Virtual Assistants are available for clients to assist with administrative tasks.</p>
+                            <p>
+                            Simple shared hosting to multiple racks of managed dedicated servers are available for clients at <a href="https://mtbn.net" target="_blank" rel="noopener noreferrer">mtbn.net</a></p>
+                            <a href="https://mtbn.net" target="_blank" rel="noopener noreferrer"><img width="100%" src="//image.thum.io/get/width/300/http://mtbn.net" alt="thum.io screenshot of MTBN.net"/></a>
+                            <p>Training and Video Sales Letter Video Production Services are available</p>
 
-<iframe title="video1" width="100%" height="315" src="https://www.youtube.com/embed/zwdWxfmjSRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe title="video2" width="100%" height="315" src="https://duoservers.com/videos/DuoServers-Intro-Video-full-640-var.new3.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                                    </Typography>
+                            <iframe title="video1" width="100%" height="315" src="https://www.youtube.com/embed/zwdWxfmjSRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe title="video2" width="100%" height="315" src="https://duoservers.com/videos/DuoServers-Intro-Video-full-640-var.new3.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </Typography>
                         </Box>
                         <Button
                           variant="contained"
@@ -171,7 +174,7 @@ Simple shared hosting to multiple racks of managed dedicated servers are availab
                       <img
                         src={headerImage}
                         className={classes.image}
-                        alt="header example"
+                        alt="Headshot of Michael Scott McGinn"
                       />
                       
                       </Grid>
@@ -190,6 +193,15 @@ Simple shared hosting to multiple racks of managed dedicated servers are availab
                         alt="header example"
                       />
                     </Grid>
+
+                    <Grid item md={2}>
+                      <img
+                        src={headerImage2}
+                        className={classes.image}
+                        alt="header example"
+                      />
+                    </Grid>
+
                   </Hidden>
                 </Box>
               </div>
