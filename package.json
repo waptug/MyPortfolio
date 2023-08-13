@@ -2,7 +2,7 @@
   "name": "react-saas-template",
   "version": "1.0.0",
   "private": true,
-  "homepage": "/reactportfolio",
+  "homepage": "/reactportfolio/MyPortfolio/build/",
   "description": "Template for building an SaaS/admin application using React + Material-UI",
   "dependencies": {
     "@date-io/date-fns": "^1.3.13",

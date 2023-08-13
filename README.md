@@ -57,6 +57,6 @@ Alter the "homepage" with the root location of your portfolio.
 
   "private": true,
 
-  "homepage": "/reactportfolio",
+  "homepage": "/reactportfolio/MyPortfolio/build/",
 
   "description": "Template for building an SaaS/admin application using React + Material-UI",
