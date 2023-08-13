@@ -142,7 +142,8 @@ function HeadSection(props) {
                             <p><a href="https://GeekZoneHosting.Com" target="_blank" rel="noopener noreferrer">GeekZoneHosting.Com</a>, LLC
                             is a web hosting company that provides a number of services to clients.
                             We can provide domain name registration, web hosting, SSL certificates, SMTP and POP3 Email services and
-                            site development services. </p><p>GeekZoneHosting.Com also provids a number of supporting services via affiliate
+                            site development services. </p>
+                            <p>GeekZoneHosting.Com also provids a number of supporting services via affiliate
                             relationships with multiple vendors via its website network.</p>
                             <p>Virtual Assistants are available for clients to assist with administrative tasks.</p>
                             <p>
@@ -170,35 +171,35 @@ function HeadSection(props) {
                     </Box>
                   </Grid>
                   <Hidden smDown>
-                    <Grid item md={2}>
+                    <Grid item md={1}>
                       <img
                         src={headerImage}
                         className={classes.image}
-                        alt="Headshot of Michael Scott McGinn"
+                        alt="Screenshot 2023-08-08 at 13-14-00 Affiliates MTBN.NET HOSTING"
                       />
                       
                       </Grid>
-                      <Grid item md={2}>
+                      <Grid item md={1}>
                       <img
                         src={headerImage1}
                         className={classes.image}
-                        alt="header example"
+                        alt="Screenshot 2023-08-08 at 13-12-39 Web Hosting plans MTBN.NET"
                       />
                     </Grid>
                     
-                    <Grid item md={2}>
+                    <Grid item md={1}>
                       <img
                         src={headerImage2}
                         className={classes.image}
-                        alt="header example"
+                        alt="Screenshot 2023-08-08 at 13-14-38 Hosting Articles"
                       />
                     </Grid>
 
-                    <Grid item md={2}>
+                    <Grid item md={1}>
                       <img
                         src={headerImage2}
                         className={classes.image}
-                        alt="header example"
+                        alt="Screenshot 2023-08-08 at 13-15-27 Hepsia vs. cPanel"
                       />
                     </Grid>
 
