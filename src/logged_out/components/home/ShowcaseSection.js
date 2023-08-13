@@ -144,10 +144,12 @@ relationships with multiple vendors via its website network.</p>
 <p>Virtual Assistants are available for clients to assist with administrative tasks.</p>
 <p>
 Simple shared hosting to multiple racks of managed dedicated servers are available for clients at <a href="https://mtbn.net" target="_blank" rel="noopener noreferrer">mtbn.net</a></p>
-<a href="https://geekzonehosting.com" target="_blank" rel="noopener noreferrer"><img width="100%" src="//image.thum.io/get/width/300/http://geekzonehosting.com" alt="thum.io screenshot of GeekZoneHosting.Com"/></a>
-<p>Training Video Production Services are available</p>
+<a href="https://mtbn.net" target="_blank" rel="noopener noreferrer"><img width="100%" src="//image.thum.io/get/width/300/http://mtbn.net" alt="thum.io screenshot of MTBN.net"/></a>
+<p>Training and Video Sales Letter Video Production Services are available</p>
+
 <iframe title="video1" width="100%" height="315" src="https://www.youtube.com/embed/zwdWxfmjSRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                          </Typography>
+<iframe title="video2" width="100%" height="315" src="https://duoservers.com/videos/DuoServers-Intro-Video-full-640-var.new3.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                                    </Typography>
                         </Box>
                         <Button
                           variant="contained"
@@ -155,7 +157,7 @@ Simple shared hosting to multiple racks of managed dedicated servers are availab
                           fullWidth
                           className={classes.extraLargeButton}
                           classes={{ label: classes.extraLargeButtonLabel }}
-                          href="https://GeekZoneHosting.Com"
+                          href="https://mtbn.net"
                         >
                           Visit Site
                         </Button>

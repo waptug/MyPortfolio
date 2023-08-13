@@ -60,3 +60,36 @@ Alter the "homepage" with the root location of your portfolio.
   "homepage": "/reactportfolio/MyPortfolio/build/",
 
   "description": "Template for building an SaaS/admin application using React + Material-UI",
+
+
+You can use the vscode plugin sftp to speed up the deployment to your web server.
+
+Here is the sample simple config you will need to setup in the .vscode folder in sftp.json file
+
+This will connect the sftp plugin to your server so you can just upload the build folder each time you run npm run build 
+
+to make your static site files that are optimized.
+
+{
+
+    "name": "reactportfolio",
+
+    "host": "ftps10.us.cloudlogin.co",
+
+    "protocol": "sftp",
+
+    "port": 2222,
+
+    "username": "`<username>`",
+
+    "password": "`<password>`",
+
+    "remotePath": "/home/www/michaelscottmcginn.com/reactportfolio/",
+
+    "uploadOnSave": true,
+
+    "useTempFile": false,
+
+    "openSsh": false
+
+}
