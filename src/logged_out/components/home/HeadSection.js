@@ -139,7 +139,7 @@ Michael Scott McGinn</p>
 GeekZoneHosting.Com provides domain name registration, web hosting,
 site development services and training.</p>
 <p>
-I am a full stack web site developer with 30 years of experience and a passion for responsive UX/UI web site design, Database Design and training.</p>
+Hello! My name is Michael Scott McGinn and I am a Acquia Certified Drupal 9 Site Builder. With a passion for building enterprise and government web portals using Drupal 9 and 10 along with custom php applications to create data driven charting and mapping solutions using Highcharts and Greensock animation, I have gained experience in enterpeise and government projects over the last 20 years at Microsoft, Boeing, FEMA and many small business clients. </p>
                           </Typography>
                         </Box>
                         <Button
@@ -148,9 +148,9 @@ I am a full stack web site developer with 30 years of experience and a passion f
                           fullWidth
                           className={classes.extraLargeButton}
                           classes={{ label: classes.extraLargeButtonLabel }}
-                          href="https://waptug.com"
+                          href="https://www.linkedin.com/in/geekzonebooks/"
                         >
-                          Learn how to create a profile site like this.
+                          Connect with Me on LinkedIn
                         </Button>
                         
                         
